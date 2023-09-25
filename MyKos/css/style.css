@@ -1,0 +1,371 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+}
+
+body{
+    background-color: #035ECA;
+}
+
+a{
+    color: #00AFFA;
+}
+
+@media screen and (max-width: 767px) {
+    /* Sign Up & Log In*/
+    .form-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .form-section .form-container{
+        background-color: #FEFEFE;
+        padding: 0px 40px 0px 40px;
+        border-radius: 15px;
+    }
+
+    .form-section .form-container .form-title{
+        text-align: center;
+    }
+
+    .form-section .form-container form{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+    .form-section .form-container form input{
+        border-color: #444444;
+        border-width: 2px;
+        padding: 5px;
+    }
+
+    .form-section .form-container form .role-selection{
+        font-size: 12px;
+    }
+
+    .form-section .form-container form .role-selection select{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .form-section .form-container form button{
+        border: none;
+        border-radius: 5px;
+        background-color: #FFD600;
+        font-weight: 600;
+        width: 70%;
+        align-self:center;
+        padding: 10px 0px 10px 0px;
+    }
+
+    /*Admin Profile CSS*/
+    .logo-back-adminProfile-div img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .logo-back-adminProfile-div{
+        margin-bottom: 5px;
+    }
+
+    .kos-title-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .edit-admin-profile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    #pencil-pict{
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+        margin-bottom: 5px;
+    }
+
+    #text-edit-nav-item{
+        font-weight: bold;
+        margin-left: 5px;
+        margin-top: 13px;
+    }
+
+    .info-kos-rectangle{
+        width: 80%;
+        height: 80%;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: auto;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    #kos-name{
+        font-size: 25px;
+    }
+
+    #subtitle-di-admin-profile{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    #isi-di-admin-profile{
+        font-size: 13px;
+        margin: 0;
+        margin-bottom: 25px;
+        border: none;
+        width: 300px;
+        background-color: white;
+    }
+
+
+    #kos-lainnya{
+        font-weight: bold;
+    }
+
+    .btn-keluar-admin-profile {
+        width: 85%;
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px;
+        margin: 20px auto;
+        padding: 16px;
+        display: block;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+
+    .kos-lainnya-div img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .kos-lainnya-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .left-kos-lainnya{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #kos-lainnya{
+        font-size: 14px;
+        margin-top: 2.5px;
+        margin-left: 5px;
+    }
+
+    #rightArrow-pict{
+        margin-right: 20px;
+        margin-top: 2px;
+    }
+
+    .navbar-pertama{
+        width: 100%;
+        height: 60px;
+        background-color: #002552;
+        border: 1px solid black;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-pertama .nav-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .navbar-pertama .nav-item img {
+        width: 23px;
+        height: 23px;
+        object-fit: cover;
+        margin-bottom: 5px;
+    }
+
+    #text-nav-item{
+        color: white;
+        margin: 0;
+        font-size: 14px;
+        
+    }
+
+    /*detail-tamu CSS*/
+    .logo-back-detailTamu-div img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .div-logo-detail-tamu{
+        margin-top: 0px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #text-edit-nav-item-2{
+        font-weight: bold;
+        margin-left: 5px;
+        margin-top: 13px;
+    }
+
+    /* .profile-pict-detail-tamu{
+        width: 50px;
+        height: 50px;
+    } */
+
+    #teks-kamar103{
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .div-content-data-tamu{
+        width: 80%;
+        height: 80%;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: auto;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .data-tamu-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .right-part-data-tamu-title{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    #teks-data-tamu{
+        font-size: 20px;
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+
+    #subtitle-di-detail-tamu{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    #isi-di-detail-tamu{
+        font-size: 13px;
+        margin: 0;
+        margin-bottom: 25px;
+        border: none;
+        width: 300px;
+        background-color: white;
+    }
+
+    #isi-di-detail-tamu-SP{
+        font-size: 13px;
+        margin: 0;
+        margin-bottom: 25px;
+        border: none;
+        width: 300px;
+        background-color: white;
+    }
+
+    #teks-tagihan{
+        color: white;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .data-tamu-info-2{
+        width: 80%;
+        height: 50%;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: auto;
+        position: relative;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #sub-data-tamu-info-2{
+        margin-top: 25px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .subRight-data-tamu-info-2{
+        margin-right: 15px;
+    }
+
+    #teks-data-tamu-belumLunas{
+        color: red;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    #teks-data-tamu-DuaJutaLimaRatus{
+        color: red;
+        font-size: 13px;
+        margin-top: 0px;
+    }
+
+    .btn-hapusTamu-detail-tamu{
+        width: 80%;
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px;
+        margin: 20px auto;
+        padding: 16px;
+        display: block;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+
+    /*Profile-Tenant CSS*/
+    .btn-keluar-profile-tenant{
+        width: 80%;
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px;
+        margin: 20px auto;
+        padding: 16px;
+        display: block;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+
+}

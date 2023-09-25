@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Harmattan&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="form-section">
+        <div class="form-container">
+            <h4 class="form-title">Sign Up</h4>
+            <form>
+                <input type="text" id="nameSignUp" name="name" placeholder="Name"><br>
+
+                <input type="email" id="emailSignUp" name="email" placeholder="Email"><br>
+
+                <input type="number" id="phoneNumSignUp" name="phone-number" placeholder="Phone Number"><br>
+
+                <input type="password" id="passwordSignUp" name="password" placeholder="Password"><br>
+
+                <input type="password" id="confirmPasswordSignUp" name="confirm-password"
+                    placeholder="Confirm Password"><br>
+
+                <br>
+                <div class="sign-up-validation"></div>
+                <br>
+
+                <div class="role-selection">
+                    <label for="rel">Saya adalah :</label><br>
+                    <select name="role" id="role-id">
+                        <option value="tenant">Tenant</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </div>
+
+                <br>
+                <button id="signUpBtn" type="submit">Sign Up</button>
+                <p>Already have an account ? <a href="../html/log-in.html">Log In</a></p>
+            </form>
+        </div>
+
+    </section>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
